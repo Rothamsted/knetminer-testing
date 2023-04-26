@@ -19,26 +19,26 @@
 * [ ] The other fields are empty
 * Click on `Search`
 * [ ] 14 genes are shown in the gene table. Check it matches [this](flc-genes.png)
-* [ ] TODO: evidence view (buggy at the moment)
-* [ ] Click on the map view, check it matches [this](flc-chr.png) (we're aware of the 
+* [ ] TODO: evidence view (buggy at the moment)
+* [ ] Click on the map view, check it matches [this](flc-chr.png) (we're aware of the 
       graphic glitch on the bottom
-* [ ] Go back to the gene view, select the first 3 genes, `3 genes selected` should appear 
+* [ ] Go back to the gene view, select the first 3 genes, `3 genes selected` should appear 
       click on `Create network view`. Check it matches [this](flc-net.png)
 * Check net view functionality
-* [ ] Clicking and dragging on a blank point. the graph moves
-* [ ] Right-click on a node, the options wheel appears
+* [ ] Clicking and dragging on a blank point. the graph moves
+* [ ] Right-click on a node, the options wheel appears
 * [ ] From the option wheels, it's possible to show the info box on the right, this seems fine
-* [ ] The info box works for other nodes and edges
+* [ ] The info box works for other nodes and edges
 * [ ] Other option wheels options work
 * [ ] The info box can be closed
-* [ ] The info box can be opened/closed with the top icon. We're aware it's initially empty
-* [ ] In the legend, double click on CellComp (or other node). New nodes should show up
-* [ ] Click on the redraw icon, it should redraw and reposition newly added nodes
+* [ ] The info box can be opened/closed with the top icon. We're aware it's initially empty
+* [ ] In the legend, double click on CellComp (or other node). New nodes should show up
+* [ ] Click on the redraw icon, it should redraw and reposition newly added nodes
 * Check other net view options
-  * [ ] At least one different layout
-  * [ ] `Labels:`
-  * [ ] `Label Size`
-* [ ] At the end, check the Javascript console for errors
+  * [ ] At least one different layout
+  * [ ] `Labels:`
+  * [ ] `Label Size`
+* [ ] At the end, check the Javascript console for errors
 * [ ] At the bottomo of the search form, check that `Clear Search Fiekds` work and that you can use the cleared form again
 
 
