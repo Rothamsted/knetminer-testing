@@ -8,15 +8,15 @@
 * [ ] The initial screenshot loads correctly, including the "share your feedback banner"
 * [ ] The Javascript console doesn't show errors
 * [ ] Check the `Release Notes Icon`
-* [ ] Check the other links on the top: tutorial, cite us. For sign-in, sign-up, verify the inital 
+* [ ] Check the other links on the top: tutorial, cite us. For sign-in, sign-up, verify the inital 
       forms appears. There is another test TODO about interacting with knetspace
 
-## Examples
+## Testing the Examples
 
 ### Click on "FLC gene expression"
 * [ ] `Keywords` field is populated with: `flowering FLC FT`
-* [ ] Under keywords, it shows: `18 documents and 14 genes will be found with this query`
-* [ ] The other fields are empty
+* [ ] Under keywords, it shows: `18 documents and 14 genes will be found with this query`
+* [ ] The other fields are empty
 * Click on `Search`
 * [ ] 14 genes are shown in the gene table. Check it matches [this](flc-genes.png)
 * [ ] TODO: evidence view (buggy at the moment)
