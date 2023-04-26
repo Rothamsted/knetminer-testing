@@ -44,28 +44,28 @@
 
 ### Select the example Yield-related Ara
 * [ ] Check it matches [this](qtl-search-form.png)
-* [ ] In the Chromosome Region section, check that changing chromosome changes count
-* [ ] Check add/remove chromosome regions
+* [ ] In the Chromosome Region section, check that changing chromosome changes count
+* [ ] Check add/remove chromosome regions
 * Search with the initial region
-* [ ] Check [the gene view](qtl-genes.png)
-* [ ] Check the [evidence view](qtl-evidence.png), check it has p-values, downloadable genes, 
+* [ ] Check [the gene view](qtl-genes.png)
+* [ ] Check the [evidence view](qtl-evidence.png), check it has p-values, downloadable genes, 
       gene list (click and verify links)
-* [ ] Check the chromosome view, the chromosome 1 should be plenty of entries
-* [ ] Check the chromosome view: resize, redraw, auto-labels, genes number, save, advanced options
+* [ ] Check the chromosome view, the chromosome 1 should be plenty of entries
+* [ ] Check the chromosome view: resize, redraw, auto-labels, genes number, save, advanced options
 * [ ] Select a few genes on the chromosome view, click on the net view icon on the top left, verify 
       a net view appears
 * [ ] At the end, check the Javascript console
       
 ## Switching specie
-* [ ] The specie selector on the top left switches between species, changing examples correctly
+* [ ] The specie selector on the top left switches between species, changing examples correctly
       (1 ex for Triticum, 2 for Zea)
 * [ ] Do similar tests to the above, verifying the examples work for the other species too
 
 ## Misc UI tests
-* [ ] In the gene view, clicking on a single gene shows its network view
-* [ ] In the `Keyowprds`, when you start typing, the counter down the text box changes
-* [ ] The concept selector on the end of `Keyowrds` works fine (including +/-)
-* [ ] The concept selector is blanked when the `Keywords` box is emptied
-* [ ] In evidence view -> `Genes`, click on a row, the copy and donwload buttons work fine.
+* [ ] In the gene view, clicking on a single gene shows its network view
+* [ ] In the `Keyowprds`, when you start typing, the counter down the text box changes
+* [ ] The concept selector on the end of `Keyowrds` works fine (including +/-)
+* [ ] The concept selector is blanked when the `Keywords` box is emptied
+* [ ] In evidence view -> `Genes`, click on a row, the copy and donwload buttons work fine.
       Paste some list in the search box
-* [ ] In the evidence view, clicking on `Gene list` show the network view for those user genes
+* [ ] In the evidence view, clicking on `Gene list` show the network view for those user genes
