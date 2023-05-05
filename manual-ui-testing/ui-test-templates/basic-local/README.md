@@ -1,6 +1,6 @@
 # [BasicLocal] Basic tests, local instance
 
-[Test instances]()
+[Test instances][TPLINST]
 
 ## Preparation
 * [ ] Launch client and API, via scripts in aratiny-manual. TODO: add wiki links
@@ -74,11 +74,13 @@
 
 ## Headline for the test instances
 
-Based on [this template][TPLREF]. 
+**Please, report this at the begin of every GH ticket that is a run of this test template**
 
-**Please, always report a link to the template a UI test is about and also its ID in the title.** This is very useful to [find test instances][TPLINST] from the template. The best way to do that is copying this headline to every new instance.
+This is a manual UI test based on [this template][TPLREF]. 
+
+**Please, always report a link to the template a UI test is about and also its ID in the title.** This is useful to [find test instances][TPLINST] from the template. The best way to do that is copying this headline to every new instance. This template is reported at the [end of the template][TPLREF].
 
 Tests from the template that aren't mentioned hereby are intended as passed.
 
-[TPLREF]: 
-[TPLINST]: 
+[TPLREF]: /Rothamsted/knetminer-testing/tree/main/manual-ui-testing/ui-test-templates/basic-local
+[TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=BasicLocal
