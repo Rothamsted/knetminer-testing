@@ -1,4 +1,6 @@
-# Basic tests, local instance
+# [BasicLocal] Basic tests, local instance
+
+[Test instances]()
 
 ## Preparation
 * [ ] Launch client and API, via scripts in aratiny-manual. TODO: add wiki links
@@ -69,3 +71,14 @@
 * [ ] In evidence view -> `Genes`, click on a row, the copy and donwload buttons work fine.
       Paste some list in the search box
 * [ ] In the evidence view, clicking on `Gene list` show the network view for those user genes
+
+## Headline for the test instances
+
+Based on [this template][TPLREF]. 
+
+**Please, always report a link to the template a UI test is about and also its ID in the title.** This is very useful to [find test instances][TPLINST] from the template. The best way to do that is copying this headline to every new instance.
+
+Tests from the template that aren't mentioned hereby are intended as passed.
+
+[TPLREF]: 
+[TPLINST]: 

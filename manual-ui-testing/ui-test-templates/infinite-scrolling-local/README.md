@@ -1,11 +1,13 @@
-# Infinite Scrolling tests, local instance
+# [InfiniteScrollingLocal] Infinite Scrolling tests, local instance
 
-## Preparation
+[Test instances]()
+
+## Preparation
 * [ ] Launch client and API, via scripts in aratiny-manual. TODO: add wiki links
 * [ ] Go to localhost:8080. The UI works
 * [ ] Type `a***` as search string. Counts are: *1321 documents and 220 genes*.
 
-## Obtaining long list for the gene table
+## Obtaining long list for the gene table
 * [ ] The gene table shows with the first page (30/220 genes).
 * [ ] As you scroll, more rows are added, up to 220. Each page addition takes about 1 sec
 * [ ] BioProc filter selects 7 genes
@@ -54,3 +56,14 @@
       dominate the sorting
 * [ ] Sorting by Genes or Gene List works correctly
 * [ ] When filtering, the selected sorting criteria remain the same and work correctly
+
+## Headline for the test instances
+
+Based on [this template][TPLREF]. 
+
+**Please, always report a link to the template a UI test is about and also its ID in the title.** This is very useful to [find test instances][TPLINST] from the template. The best way to do that is copying this headline to every new instance.
+
+Tests from the template that aren't mentioned hereby are intended as passed.
+
+[TPLREF]: 
+[TPLINST]: 
