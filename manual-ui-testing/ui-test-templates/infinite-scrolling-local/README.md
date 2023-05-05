@@ -68,7 +68,7 @@ This is a manual UI test based on [this template][TPLREF].
 
 Tests from the template that aren't mentioned hereby are intended as passed.
 
-[TPLREF]: /Rothamsted/knetminer-testing/tree/main/manual-ui-testing/ui-test-templates/infinite-scrolling-local
+[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/main/manual-ui-testing/ui-test-templates/infinite-scrolling-local/README.md
 [TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=InfiniteScrollingLocal
 
 ---
