@@ -72,6 +72,17 @@
       Paste some list in the search box
 * [ ] In the evidence view, clicking on `Gene list` show the network view for those user genes
 
+## URL-related tests
+* [ ] Go to go to http://localhost:8080/?taxId=4565
+      The UI opens with *Triticum Aestivum* selected
+* [ ] Go to this [/genome URL](http://localhost:9090/ws/aratiny/genome?keyword=flowering%20FLC%20FT&list=TRP*,BRA*). A correct reply is given.
+* [ ] Go to this [/genome URL](http://localhost:9090/ws/aratiny/genome?keyword=flowering%20FLC%20FT&list=TRP*,BRA*), which omits the data source ID from the URL. A correct reply is given.
+
+## Gene page test
+* [ ] This [gene page URL](http://localhost:8080/html/genepage.jsp?keywords=flowering%20FLC%20FT&list=TRP*,AT1G*)  works correctly.
+
+
+
 ## Headline for the test instances
 
 **Please, report this at the begin of every GH ticket that is a run of this test template**
