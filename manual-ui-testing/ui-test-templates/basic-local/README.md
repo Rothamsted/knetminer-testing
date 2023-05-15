@@ -20,7 +20,7 @@
 * [ ] The other fields are empty
 * Click on `Search`
 * [ ] 14 genes are shown in the gene table. Check it matches [this](flc-genes.png)
-* [ ] TODO: evidence view (buggy at the moment)
+* [ ] Switch to the evidence view. It matches [this](flc-evidence.png)
 * [ ] Click on the map view, check it matches [this](flc-chr.png) (we're aware of the 
       graphic glitch on the bottom
 * [ ] Go back to the gene view, select the first 3 genes, `3 genes selected` should appear 
@@ -31,16 +31,16 @@
 * [ ] From the option wheels, it's possible to show the info box on the right, this seems fine
 * [ ] The info box works for other nodes and edges
 * [ ] Other option wheels options work
-* [ ] The info box can be closed
-* [ ] The info box can be opened/closed with the top icon. We're aware it's initially empty
-* [ ] In the legend, double click on CellComp (or other node). New nodes should show up
+* [ ] The info box can be closed (we're aware that sometimes you need the enlarged view for this)
+* [ ] The info box can be opened/closed with the top icon. We're aware it's initially empty and it's only emptied on second click, not closed.
+* [ ] In the legend, click on CellComp (or other node). New nodes should show up. Double click on the same icon, the corresponding nodes should disappear.
 * [ ] Click on the redraw icon, it should redraw and reposition newly added nodes
 * Check other net view options
   * [ ] At least one different layout
   * [ ] `Labels:`
   * [ ] `Label Size`
 * [ ] At the end, check the Javascript console for errors
-* [ ] At the bottomo of the search form, check that `Clear Search Fiekds` work and that you can use the cleared form again
+* [ ] At the bottom of the search form, check that `Clear Search Fields` work and that you can use the cleared form again
 
 
 ### Select the example Yield-related Ara
