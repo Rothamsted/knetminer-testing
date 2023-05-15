@@ -10,8 +10,7 @@
 * [ ] The initial screenshot loads correctly, including the "share your feedback banner"
 * [ ] The Javascript console doesn't show errors
 * [ ] Check the `Release Notes Icon`
-* [ ] Check the other links on the top: tutorial, cite us. For sign-in, sign-up, verify the inital 
-      forms appears. There is another test TODO about interacting with knetspace
+* [ ] Check the other links on the top: tutorial, cite us. For sign-in, sign-up, verify the inital forms appears. There is another test TODO about interacting with knetspace.
 
 ## Testing the Examples
 
