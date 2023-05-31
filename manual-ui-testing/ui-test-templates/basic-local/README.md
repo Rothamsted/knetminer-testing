@@ -64,7 +64,7 @@
 
 ## Misc UI tests
 * [ ] In the gene view, clicking on a single gene shows its network view
-* [ ] In the `Keyowprds`, when you start typing, the counter down the text box changes
+* [ ] In the `Keyowords`, when you start typing, the counter down the text box changes
 * [ ] The concept selector on the end of `Keyowrds` works fine (including +/-)
 * [ ] The concept selector is blanked when the `Keywords` box is emptied
 * [ ] In evidence view -> `Genes`, click on a row, the copy and donwload buttons work fine.
