@@ -54,6 +54,8 @@
 * [ ] Check [the gene view](TODO)
 * [ ] Check the [evidence view](TODO), check it has p-values, downloadable genes, 
       gene list (click and verify links)
+       **WARNING**: we already know Js doesn't have access to the browser clipboard (eg, in Chrome), when you're testing an URL like `http://babvs*`, due to the fact it's not https and not 
+      considered secure ([ref](https://stackoverflow.com/questions/51805395)).
 * [ ] Check the chromosome view, the chromosome 1 should be plenty of entries
 * [ ] Check the chromosome view: resize, redraw, auto-labels, genes number, save, advanced options
 * [ ] Select a few genes on the chromosome view, click on the net view icon on the top left, verify 
@@ -67,12 +69,12 @@
 
 ## Misc UI tests
 * [ ] In the gene view, clicking on a single gene shows its network view
-* [ ] In the `Keyowords`, when you start typing, the counter down the text box changes
-* [ ] The concept selector on the end of `Keyowrds` works fine (including +/-)
+* [ ] In the `Keywords`, when you start typing, the counter down the text box changes
+* [ ] The concept selector on the end of `Keywords` works fine (including +/-)
 * [ ] The concept selector is blanked when the `Keywords` box is emptied
 * [ ] In evidence view -> `Genes`, click on a row, the copy and donwload buttons work fine.
       Paste some list in the search box. 
-      **WARNING**: we already know Js doesn't have access to the browser clipboard (eg, in Chrome), when you're testing an URL like `http://babvs*`, due to the fact it's not https and not 
+      **WARNING**: again, we already know Js doesn't have access to the browser clipboard (eg, in Chrome), when you're testing an URL like `http://babvs*`, due to the fact it's not https and not 
       considered secure ([ref](https://stackoverflow.com/questions/51805395)).
 * [ ] In the evidence view, clicking on `Gene list` show the network view for those user genes.
       It might take a while and without progressing messages.
