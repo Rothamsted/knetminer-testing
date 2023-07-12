@@ -89,16 +89,25 @@
 * [ ] This [gene page URL](http://localhost:8080/html/genepage.jsp?keywords="cold%20tolerance"&list=TPP1,TPP4,TPPE)  works correctly.
 
 
-
 ## Headline for the test instances
 
-**Please, report this at the begin of every GH ticket that is a run of this test template**
+**Please, report this Markdown code at the begin of every GH ticket that represents a report on running the test described in the hereby template**:
 
-This is a manual UI test based on [this template][TPLREF]. 
+```Markdown
+*This is a manual UI test based on [this template][TPLREF]. Other instances of this test are [here][TPLREF]. Tests from the template that aren't mentioned hereby are intended as passed.*
 
-**Please, always report a link to the template a UI test is about and also its ID in the title.** This is useful to [find test instances][TPLINST] from the template. The best way to do that is copying this headline to every new instance. This template is reported at the [end of the template][TPLREF].
-
-Tests from the template that aren't mentioned hereby are intended as passed.
-
-[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v2/manual-ui-testing/ui-test-templates/basic-ci/README.md
+[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v2.1/manual-ui-testing/ui-test-templates/basic-ci/README.md
 [TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=BasicCI
+```
+
+**Please, when opening an issue about this test, always use this format**:
+
+```
+[BasicCI UI Test] <description>
+```
+
+This is useful to [find test instances][TPLINST] from the template.
+
+[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v2.1/manual-ui-testing/ui-test-templates/basic-ci/README.md
+[TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=BasicCI
+
