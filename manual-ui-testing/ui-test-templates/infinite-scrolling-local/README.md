@@ -50,7 +50,7 @@ As said above, user can't decide the sorting column anymore.
 
 ## Headline for the test instances
 
-**Please, report this Markdown code at the begin of every GH ticket that represents a report on running the test described in the hereby template**:
+**Please, report this Markdown code at the beginning of every GH ticket that represents a report on running the test described in the hereby template**:
 
 ```Markdown
 *This is a manual UI test based on [this template][TPLREF]. Other instances of this test are [here][TPLREF]. Tests from the template that aren't mentioned hereby are intended as passed.*
