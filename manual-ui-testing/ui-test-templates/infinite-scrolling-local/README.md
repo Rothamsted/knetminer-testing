@@ -21,6 +21,8 @@
 ## Testing the evidence table
 * [ ] While on the same search results, switch to the evidence table, it shows 413 evidences
 * [ ] The scroll works here too
+* [ ] Scroll to the bottom, the table should update to add new rows
+* [ ] Scroll to absolute bottom, make sure it reads "Showing 413 of 413" and the table doesn't duplicate itself
 * [ ] Filter on Genes, 331 genes are filtered, as the icon shows
 * [ ] Select Trait and ProteinDomain, 36 rows are filtered (as the numbers in the icons)
 * [ ] Remove all filters, 413 evidences are shown again
