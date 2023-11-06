@@ -49,18 +49,25 @@
 * [ ] Check add/remove chromosome regions
 * Search with the initial region
 * [ ] Check [the gene view](qtl-genes.png)
-* [ ] Check the [evidence view](qtl-evidence.png), check it has p-values, downloadable genes, 
-      gene list (click and verify links)
+* [ ] Check the [evidence view](qtl-evidence.png), check it has p-values, downloadable genes, gene list (click and verify links)
 * [ ] Check the chromosome view, the chromosome 1 should be plenty of entries
 * [ ] Check the chromosome view: resize, redraw, auto-labels, genes number, save, advanced options
-* [ ] Select a few genes on the chromosome view, click on the net view icon on the top left, verify 
-      a net view appears
+* [ ] Select a few genes on the chromosome view, click on the net view icon on the top left, verify a net view appears
 * [ ] At the end, check the Javascript console
       
 ## Switching specie
-* [ ] The specie selector on the top left switches between species, changing examples correctly
-      (1 ex for Triticum, 2 for Zea)
+* [ ] The specie selector on the top left switches between species, changing examples correctly (1 ex for Triticum, 2 for Zea)
 * [ ] Do similar tests to the above, verifying the examples work for the other species too
+
+## Concept Suggestion
+* [ ] Reset the search form, the concept suggestion button (at the end of the kewords box) is white and disabled
+* [ ] Type "seed". The suggestion button becomes active
+* [ ] Click on the suggestion button. [this appears](suggester.png)
+* [ ] You can switch between the types on the right of the suggested concept box
+* [ ] When clicking on '+' on a concept, `ConceptID:NNNN` is added to the search box and the concept selector changes with the filtered concept
+* [ ] When clicking on '-', `NOT ConceptID:NNNN` is added to the search box
+* [ ] When clicking on the 'replace' circle, after +/-, the current token in the text search box (shown on the top of the concept selector box) is replaced by the corresponding concept ID 
+* [ ] Click on the suggester again, it works correctly and 'Search' performs the search with the chosen concept IDs.
 
 ## Misc UI tests
 * [ ] In the gene view, clicking on a single gene shows its network view
@@ -89,7 +96,7 @@
 ```Markdown
 *This is a manual UI test based on [this template][TPLREF]. Other instances of this test are [here][TPLINST]. Tests from the template that aren't mentioned hereby are intended as passed.*
 
-[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v2.1/manual-ui-testing/ui-test-templates/basic-local/README.md
+[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v3.0/manual-ui-testing/ui-test-templates/basic-local/README.md
 [TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=BasicLocal
 ```
 
@@ -101,5 +108,5 @@
 
 This is useful to [find test instances][TPLINST] from the template.
 
-[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v2.1/manual-ui-testing/ui-test-templates/basic-local/README.md
+[TPLREF]: https://github.com/Rothamsted/knetminer-testing/blob/v3.0/manual-ui-testing/ui-test-templates/basic-local/README.md
 [TPLINST]: https://github.com/Rothamsted/knetminer/issues?q=BasicLocal
