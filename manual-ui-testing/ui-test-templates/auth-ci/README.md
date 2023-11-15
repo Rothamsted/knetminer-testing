@@ -31,11 +31,23 @@ Load the CI instance as above.
 * [ ] When selecting either, a long list of genes is placed in the Gene List Search box and the right wheel on the box becomes red, as the previous section
 * [ ] The other species have similar sample queries
 
-### After login
-TODO: new tests to be defined: 
-* What should happen to the sample queries? I (MB) have a Pro Plan, but I still see 'Upgrade' links.
-* What other restrictions that are unlocked should we test?
-* Do we need further test cases about user and permissions?
+### After Login
+
+1. **For Free Registered Accounts:**
+   - [ ] Log in with a free but registered account.
+   - [ ] Ensure Arabidopsis thaliana is selected by default. If it isn't, select it now.
+   - [ ] Under Example Queries, find "Shade avoidance (800 genes)" which should be clickable but display "(Upgrade)" in grey text beside it.
+   - [ ] Click on "Shade avoidance (800 genes)". This should add 868 genes to the Gene List, indicated by a red circle with "868/100" at the top right of the Gene List.
+   - [ ] Verify that the Search button is greyed out and not clickable.
+   - [ ] Click on "Development stages (100 genes)". This should populate the interface and make the Search function active, now with 100 genes in the list.
+   - [ ] Verify search works with the above query.
+
+2. **For Pro/Premium/Paid Accounts:**
+   - [ ] Log in with a Pro/Premium/Paid account.
+   - [ ] Confirm that under Arabidopsis thaliana, all example queries are accessible.
+   - [ ] Click on "Development stages (100 genes)" and verify it is searchable.
+   - [ ] Then click on "Shade avoidance (800 genes)" and ensure it is also searchable.
+
 
 ## Headline for the test instances
 
